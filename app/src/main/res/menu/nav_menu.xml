@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item android:id="@+id/navYoutube"-->
+<!--        android:title="@string/youtube"-->
+<!--        android:icon="@drawable/youtube_icon" />-->
+<!--    <item android:id="@+id/navUrl"-->
+<!--        android:title="@string/play_online"-->
+<!--        android:icon="@drawable/link_icon"/>-->
+<!--    <item android:id="@+id/themesNav"-->
+<!--        android:title="@string/themes"-->
+<!--        android:icon="@drawable/theme_icon"/>-->
+<!--    <item android:id="@+id/sortOrderNav"-->
+<!--        android:title="@string/sort_order"-->
+<!--        android:icon="@drawable/sort_order_icon"/>-->
+    <item
+        android:id="@+id/main_rateus_option"
+        android:title="Rate Us"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/round_star_rate_24"
+        />
+    <item
+        android:id="@+id/main_more_apps_option"
+        android:title="More Apps"
+        app:showAsAction="never" />
+    <item android:id="@+id/aboutNav"
+        android:title="@string/about"
+        android:icon="@drawable/about_icon"/>
+    <item android:id="@+id/exitNav"
+        android:title="@string/exit"
+        android:icon="@drawable/exit_icon"/>
+</menu>
